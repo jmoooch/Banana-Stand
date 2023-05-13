@@ -1,6 +1,31 @@
-<!-- Form to capture user input -->
-<form action="/" method="POST">
-    <label for="user_input">Enter Text</label>
-    <input type="text" name="user_input" id="user_input">
-    <input type="submit" name="Submit">
+<!DOCTYPE html>
+<html>
+<!-- Sets tile in tab -->
+<head>
+    <title>Banana Stand</title>
+    <!-- Defines CSS Styling used throughout page -->
+    <style>
+        .centered {
+            text-align: center;
+        }
+        .custom-button {
+            background-color: rgba(172, 182, 41, 0.986);
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sets heading on page and calls CCS styling for centering -->
+    <h1 class="centered">Don't make a huge mistake.</h1>
+    <!-- Form to capture input from user -->
+<form class="centered" action="/" method="POST">
+    <label for="user_input">What's in the banana stand?</label>
+    <input type="text" name="user_input" id="user_input" required>
+    <!-- Submit button on homepage -->
+    <input class="custom-button" type="submit" name="Submit" value="Submit..if you dare!">
 </form>
+
+</body>
+</html>

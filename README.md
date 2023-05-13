@@ -5,13 +5,12 @@ Learning exercise creating a Flask web application
 1. python -m venv env
 
 # 2. Activate Virtual Environment
-cd .\env\
-cd .\Scripts\
+cd .\env\Scripts\
 cmd /k activate.bat
 
 # 3. Pip install against requirements.txt
 pip install -r requirements.txt
 
 # 4. Running Application
-cd .\Flask_POC\
+cd ../..
 python app.py
