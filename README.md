@@ -1,4 +1,4 @@
-# ---Flask_POC---
+# ---Banana Stand---
 Learning exercise creating a Flask web application
 
 # 1. Create Virtual Environment
